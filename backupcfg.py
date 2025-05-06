@@ -1,0 +1,5 @@
+loggingfilename = "/home/ec2-user/environment/ICTPRG302Ass/Log.txt"
+copyfile = "/home/ec2-user/environment/ICTPRG302Ass/source/runningsomething.txt"
+sourcefilelocation = "/home/ec2-user/environment/ICTPRG302Ass/source/runningsomething.txt"
+sourcedirectrylocation = "/home/ec2-user/environment/ICTPRG302Ass/source"
+destinationdirectry = "/home/ec2-user/environment/ICTPRG302Ass/destination"

@@ -1,0 +1,12 @@
+ERROR:root:it is not correct job number
+DEBUG:root:successfully copy
+DEBUG:root:successfully copy
+DEBUG:root:successfully copy
+DEBUG:root:successfully copy
+DEBUG:root:successfully copy
+ERROR:root:it is not correct job number
+ERROR:root:it is not correct job number
+ERROR:root:it is not correct job number
+DEBUG:root:successfully copy
+DEBUG:root:successfully copy
+ERROR:root:it is not correct job number
