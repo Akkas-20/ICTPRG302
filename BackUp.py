@@ -9,12 +9,12 @@ import backupcfg
 
 import smtplib
 
-smtp = {"sender": "",    # elasticemail.com verified sender
-        "recipient": "", # elasticemail.com verified recipient
-        "server": "",      # elasticemail.com SMTP server
+smtp = {"sender": "akkasnik@gmail.com",    # elasticemail.com verified sender
+        "recipient": "30026912@students.sunitafe.edu.au", # elasticemail.com verified recipient
+        "server": "in-v3.mailjet.com",      # elasticemail.com SMTP server
         "port": 587,                           # elasticemail.com SMTP port
-        "user": "",      # elasticemail.com user
-        "password": ""}     # elasticemail.com password
+        "user": "22e99ae90c451e38b7815a8c5fd79a80",      # elasticemail.com user
+        "password": "22369a532b5ff76f569a1bdb4bbc69b0"}     # elasticemail.com password
 
 # append all error messages to email and send
 def sendEmail(message):
@@ -46,7 +46,10 @@ def main():
     try:
         argCount = len(sys.argv)
         program = sys.argv[0]
-        arg1 = sys.argv[1]
+        if(argCount>1):
+         arg1 = sys.argv[1]
+        else:
+            arg1="parameter is not enough"
         
         print("The program name is " + program + ".")
         print("The number of command line items is " + str(argCount) + ".")
@@ -55,7 +58,7 @@ def main():
     except:
         print("ERROR: An error occurred.")
         
-    if(arg1=="job1"):
+    if(arg1=="job1" or arg1=="job2"):
         print("job number is ok")
      
         try:
